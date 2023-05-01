@@ -1,11 +1,12 @@
-import React from "react";
-import { View, Text } from "react-native";
+import React, { useState } from "react";
+import { View, SafeAreaView, FlatList, Text } from "react-native";
+import { COLORS, NFTData } from "../constants";
 
 const Home = () => {
   return (
-    <View>
+    <SafeAreaView style={{ flex: 1 }}>
       <Text>Home</Text>
-    </View>
+    </SafeAreaView>
   );
 };
 
