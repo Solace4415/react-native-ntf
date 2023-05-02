@@ -7,7 +7,7 @@ export const NFTTitle = ({ title, subTitle, titleSize, subTitleSize }) => {
       <Text
         style={{
           fontFamily: FONTS.semiBold,
-          fontSize: FONTS.titleSize,
+          fontSize: titleSize,
           color: COLORS.primary,
         }}
       >
@@ -16,7 +16,7 @@ export const NFTTitle = ({ title, subTitle, titleSize, subTitleSize }) => {
       <Text
         style={{
           fontFamily: FONTS.regular,
-          fontSize: FONTS.subTitleSize,
+          fontSize: subTitleSize,
           color: COLORS.primary,
         }}
       >
